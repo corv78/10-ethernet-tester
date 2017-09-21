@@ -116,6 +116,7 @@ set files [list \
  "[file normalize "$origin_dir/src/tester_10ge.v"]"\
  "[file normalize "$origin_dir/src/pkt_gen.v"]"\
  "[file normalize "$origin_dir/src/pkt_chk.v"]"\
+ "[file normalize "$origin_dir/src/tester_10ge_axi_adapter.vhd"]"\ 
 ]
 add_files -norecurse -fileset $obj $files
 
